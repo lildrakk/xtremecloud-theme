@@ -1,59 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>XtremeCloud Theme PRO</title>
-  <link rel="stylesheet" href="theme.css">
-  <link id="googleFont" rel="stylesheet" href="">
+    <meta charset="UTF-8" />
+    <title>XtremeCloud Panel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Fuente moderna -->
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=inter:400,500,600,700,800" rel="stylesheet" />
+
+    <!-- CSS del tema -->
+    <link rel="stylesheet" href="/plugins/xtremecloud-theme/theme.css" />
 </head>
+<body class="xc-body">
+    <div class="xc-app">
+        <!-- Sidebar -->
+        <aside class="xc-sidebar">
+            <div class="xc-logo">
+                <span class="xc-logo-mark">XC</span>
+                <span class="xc-logo-text">XtremeCloud</span>
+            </div>
 
-<body>
+            <nav class="xc-nav">
+                <!-- Pelican inyecta aquí el menú real -->
+                <div id="pelican-sidebar"></div>
+            </nav>
 
-<h1>XtremeCloud Theme PRO</h1>
+            <div class="xc-sidebar-footer">
+                <span class="xc-badge">PRO PANEL</span>
+                <span class="xc-footer-text">Powered by XtremeCloud</span>
+            </div>
+        </aside>
 
-<div class="section">
-  <label>Fuente (Google Fonts):</label>
-  <select id="fontSelector">
-    <option value="Inter">Inter</option>
-    <option value="Poppins">Poppins</option>
-    <option value="Roboto">Roboto</option>
-    <option value="Montserrat">Montserrat</option>
-    <option value="Orbitron">Orbitron</option>
-  </select>
-</div>
+        <!-- Contenido principal -->
+        <main class="xc-main">
+            <header class="xc-header">
+                <div class="xc-header-left">
+                    <h1 class="xc-title">Panel de control</h1>
+                    <p class="xc-subtitle">Gestión avanzada con estilo XtremeCloud.</p>
+                </div>
+                <div class="xc-header-right">
+                    <button class="xc-btn xc-btn-ghost" id="xc-toggle-theme">
+                        <span class="xc-dot"></span>
+                        Modo oscuro
+                    </button>
+                </div>
+            </header>
 
-<div class="section">
-  <label>Color primario:</label>
-  <input type="color" id="primaryColor" value="#8A2BE2">
-</div>
+            <section class="xc-content">
+                <!-- Aquí Pelican inyecta el contenido del panel -->
+                <div id="pelican-content"></div>
+            </section>
+        </main>
+    </div>
 
-<div class="section">
-  <label>Color secundario:</label>
-  <input type="color" id="secondaryColor" value="#0D0D16">
-</div>
-
-<div class="section">
-  <label>Color acento:</label>
-  <input type="color" id="accentColor" value="#9B59B6">
-</div>
-
-<div class="section">
-  <label>Subir CSS personalizado:</label>
-  <input type="file" id="cssUpload">
-</div>
-
-<div class="section">
-  <label>Subir logo:</label>
-  <input type="file" id="logoUpload">
-</div>
-
-<div class="section">
-  <label>Subir banner:</label>
-  <input type="file" id="bannerUpload">
-</div>
-
-<button id="applyBtn">Aplicar Tema</button>
-
-<script src="theme.js"></script>
-
+    <!-- JS del tema -->
+    <script src="/plugins/xtremecloud-theme/theme.js"></script>
 </body>
 </html>
