@@ -3,16 +3,9 @@
   "name": "XtremeCloud Theme PRO",
   "author": "Juan",
   "version": "2.0.0",
-  "description": "Professional theme customizer for Pelican with live preview, fonts, colors, CSS and branding.",
+  "description": "Modern dark theme inspired by the official XtremeCloud website.",
   "category": "theme",
-  "namespace": "xtremecloud_theme",
-  "class": "XtremeCloudTheme",
   "entry": "index.html",
   "license": "MIT",
-  "homepage": "https://github.com/lildrakk/xtremecloud-theme",
-  "tags": ["theme", "customizer", "xtremecloud", "pelican"],
-  "compatibility": {
-    "pelican": ">=1.9.0",
-    "panel": ">=1.0.0"
-  }
+  "tags": ["theme", "xtremecloud", "dark", "modern"]
 }
