@@ -5,5 +5,13 @@
   "author": "Juan",
   "entry": "index.html",
   "id": "xtremecloud-theme",
-  "category": "theme"
+  "namespace": "xtremecloud-theme",
+  "category": "theme",
+  "license": "MIT",
+  "homepage": "https://github.com/lildrakk/xtremecloud-theme",
+  "tags": ["theme", "customizer", "xtremecloud", "pelican"],
+  "compatibility": {
+    "pelican": ">=1.9.0",
+    "panel": ">=1.0.0"
+  }
 }
