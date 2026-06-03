@@ -7,13 +7,11 @@
 
 namespace xtremecloud_theme;
 
-if (!class_exists('xtremecloud_theme\\XtremeCloudTheme')) {
-    class XtremeCloudTheme
+class XtremeCloudTheme
+{
+    public function __construct()
     {
-        public function __construct()
-        {
-            // No logic. No execution. No risk.
-            return true;
-        }
+        // No logic. No execution. No risk.
+        return true;
     }
 }
