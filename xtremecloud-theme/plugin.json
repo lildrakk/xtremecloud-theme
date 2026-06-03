@@ -5,7 +5,7 @@
   "version": "2.0.0",
   "description": "Professional theme customizer for Pelican with live preview, fonts, colors, CSS and branding.",
   "category": "theme",
-  "namespace": "xtremecloud-theme",
+  "namespace": "xtremecloud_theme",
   "class": "XtremeCloudTheme",
   "entry": "index.html",
   "license": "MIT",
