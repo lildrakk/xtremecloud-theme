@@ -3,9 +3,16 @@
   "name": "XtremeCloud Theme PRO",
   "author": "Juan",
   "version": "2.0.0",
-  "description": "Modern dark theme inspired by the official XtremeCloud website.",
+  "description": "Professional dark theme for Pelican Panel inspired by the official XtremeCloud website.",
   "category": "theme",
+  "namespace": "xtremecloud_theme",
+  "class": "XtremeCloudTheme",
   "entry": "index.html",
   "license": "MIT",
-  "tags": ["theme", "xtremecloud", "dark", "modern"]
+  "homepage": "https://github.com/lildrakk/xtremecloud-theme",
+  "tags": ["theme", "xtremecloud", "dark", "modern", "pelican"],
+  "compatibility": {
+    "pelican": ">=1.9.0",
+    "panel": ">=1.0.0"
+  }
 }
