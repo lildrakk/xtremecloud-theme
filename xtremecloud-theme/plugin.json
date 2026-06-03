@@ -3,14 +3,13 @@
   "name": "XtremeCloud Theme PRO",
   "author": "Juan",
   "version": "2.0.0",
-  "description": "Professional dark theme for Pelican Panel inspired by the official XtremeCloud website.",
+  "description": "Professional dark theme for Pelican Panel.",
   "category": "theme",
   "namespace": "xtremecloud_theme",
   "class": "XtremeCloudTheme",
-  "entry": "index.html",
+  "entry": "theme.css",
   "license": "MIT",
-  "homepage": "https://xtremecloud.es",
-  "tags": ["theme", "xtremecloud", "dark", "modern", "pelican"],
+  "tags": ["theme", "xtremecloud", "dark", "modern"],
   "compatibility": {
     "pelican": ">=1.9.0",
     "panel": ">=1.0.0"
